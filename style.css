@@ -11,18 +11,37 @@
     }
 
 
-    /**Começo header */
 
     header, footer {
         width: 100%;
     }
 
-
     /**COMEÇO HEADER*/
 
     header{
-        height: 55px;
-        border: 1px solid black;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hButton{
+        cursor: pointer;
+        position: absolute;
+        width: 45px;
+        height: 45px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 0 0 5px;
+    }
+
+    .hButton > div{
+        width: 100%;
+        height: 5px;
+        background-color: black;
+
     }
 
     /**FIM HEADER */
@@ -30,7 +49,7 @@
     /**COMEÇO CORPO */
     main{
         width: 95%;
-        min-height: 80vh;
+        min-height: 85vh;
         padding: 5px;
         box-shadow: 0 0 4px rgba(0, 0, 0, 0.41);
         display: flex;
@@ -114,8 +133,24 @@
     /**COMEÇO FOOTER */
 
     footer{
-        height: 200px;
         border: 1px solid black;
+        display: flex;
+    }
+
+    .footerWrapper{
+        width: 100px;
+        border: 1px solid black;
+    }
+    .footerWrapper > li{
+        list-style: none;
+        text-align: center;
+        color: rgb(81, 81, 81);
+        font-weight: 200;
+    }
+    .titleFooter{
+        font-size: 15px;
+        font-weight: 600;
+        text-align: center;
     }
 
     /**FIM FOOTER */
