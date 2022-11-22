@@ -1,0 +1,123 @@
+
+@media(min-width: 481px) and (max-width: 768px) { 
+    *{
+        padding: 0;
+        margin: 0 auto;
+        background-color: white;
+    }
+
+    #wrapper{
+        background-color: aqua;
+    }
+
+
+    /**Começo header */
+
+    header, footer {
+        width: 100%;
+    }
+
+
+    /**COMEÇO HEADER*/
+
+    header{
+        height: 55px;
+        border: 1px solid black;
+    }
+
+    /**FIM HEADER */
+
+    /**COMEÇO CORPO */
+    main{
+        width: 95%;
+        min-height: 80vh;
+        padding: 5px;
+        box-shadow: 0 0 4px rgba(0, 0, 0, 0.41);
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        align-content: center;
+    }
+
+    h1{
+        padding: 5px 10px;
+        text-align: center;
+    }
+
+    fieldset{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 15px;
+        justify-content: flex-start;
+        border: none;
+        border: 1px solid black;
+        border-radius: 5px;
+    }
+    fieldset > .label{
+        width: 100%;
+        padding: 5px 0;
+        font-weight: 100;
+        color: rgb(58, 58, 58);
+        font-size: 20px;
+    }
+    fieldset > .campo{
+        padding:10px;
+        margin: 5px;
+        width: 95%;
+        height: 15px;
+        border-radius: 5px;
+        border: none;
+        box-shadow: 0px 0 4px 0 rgba(0, 0, 0, 0.425);
+    }
+
+    .wrapperBtn{
+        padding: 0 30px 0 0;
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .wrapperBtn > button{
+        cursor: pointer;
+        margin: 0;
+        border: none;
+        font-size: 45px;
+    }
+
+    .wrapperBtn > button:hover{
+        border-radius: 5px;
+        transition-duration: 0.25s;
+        color: rgb(174, 173, 173);
+    }
+
+    .txtLogin{
+        padding: 5px;
+        width: 100%;
+        /*border: 1px solid black;*/
+        text-align: center;
+    }
+
+    .txtLogin > a {
+        text-decoration: none;
+        color: rgb(54, 54, 54);
+        font-weight: 600;
+
+    }
+
+    .txtLogin > a:hover{
+        text-decoration: underline;
+    }
+
+
+    /**FIM CORPO */
+
+    /**COMEÇO FOOTER */
+
+    footer{
+        height: 200px;
+        border: 1px solid black;
+    }
+
+    /**FIM FOOTER */
+}
+
